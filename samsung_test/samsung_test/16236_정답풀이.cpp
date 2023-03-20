@@ -7,7 +7,7 @@ using namespace std;
 
 // d는 포인트까지 이동하기 위한 거리
 struct Point {
-	int r, c, d;
+	int r, c, d;	// 멤버변수, c++ 구조체는 public이 디폴트 접근 지정으로 되어있다.
 };
 
 int N;
@@ -62,6 +62,7 @@ int solve(int r, int c) {
 			}
 		}
 
+		// 위의 과정에서 물고기를 찾았다면
 		if (minPt.d != INF) {
 			ret += minPt.d; // 시간 더해주기
 			--cnt;
@@ -79,14 +80,14 @@ int solve(int r, int c) {
 
 int main() {
 	cin >> N;
-	int sr, sc;
+	int sr, sc;	// sr: 상어의 행, sc: 상어의 열
 	for (int i = 0; i < N; ++i) {
 		for (int j = 0; j < N; ++j) {
 			cin >> Map[i][j];
 			if (Map[i][j] == 9) {
 				sr = i;
 				sc = j;
-				Map[i][j] = 0;
+				Map[i][j] = 0;	// 이동을 용이하게 하기 위함
 			}
 		}
 	}
