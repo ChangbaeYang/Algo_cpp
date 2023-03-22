@@ -19,7 +19,6 @@ int solve(int r, int c) {
 	do {
 		bool visited[20][20] = { false };
 		queue<Point> myqueue;
-		myqueue.push({ minPt.r, minPt.c, 0 });
 		visited[minPt.r][minPt.c] = true; // 최초의 점 방문처리
 		minPt.d = INF;
 
