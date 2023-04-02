@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\6">
       <UniqueIdentifier>{adf91f3a-d2ee-43c6-a5f0-4a2dbbaabbea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2">
+      <UniqueIdentifier>{56e1be92-72ca-45aa-90d7-afcbef9a5037}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="6_1_함수중복.cpp">
@@ -23,6 +26,9 @@
     </ClCompile>
     <ClCompile Include="6_1_함수중복2.cpp">
       <Filter>소스 파일\6</Filter>
+    </ClCompile>
+    <ClCompile Include="2-1.cpp">
+      <Filter>소스 파일\2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
