@@ -36,5 +36,11 @@
     <ClCompile Include="16236_다시풀기3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2022_하_코드트리빵.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2022_하_코드트리빵2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
