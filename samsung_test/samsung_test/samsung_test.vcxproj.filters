@@ -42,5 +42,13 @@
     <ClCompile Include="2022_하_코드트리빵2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="싸움땅.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>
