@@ -1,3 +1,4 @@
 # Algo_cpp
 
-study
+* Data structure
+* Samsung SW test
