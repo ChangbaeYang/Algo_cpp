@@ -35,7 +35,11 @@ void Go(int p_num) {
 		if (player[p_num][0] - 1 >= 0) {
 			player[p_num][0]--;
 		}
-		else player[p_num][0]++;
+		else {
+			// 방향도 바꾸기
+			player[p_num][2] = 2;
+			player[p_num][0]++;
+		}
 	}
 	// 우
 	else if (player[p_num][2] == 1) {
@@ -43,7 +47,11 @@ void Go(int p_num) {
 		if (player[p_num][1] + 1 < n) {
 			player[p_num][1]++;
 		}
-		else player[p_num][1]--;
+		else {
+			// 방향도 바꾸기
+			player[p_num][2] = 3;
+			player[p_num][1]--;
+		}
 	}
 	// 하
 	else if (player[p_num][2] == 2) {
@@ -51,7 +59,10 @@ void Go(int p_num) {
 		if (player[p_num][0] + 1 < n) {
 			player[p_num][0]++;
 		}
-		else player[p_num][0]--;
+		else {
+			player[p_num][2] = 0;
+			player[p_num][0]--;
+		}
 	}
 	// 좌
 	else {
@@ -59,7 +70,10 @@ void Go(int p_num) {
 		if (player[p_num][1] - 1 >= 0) {
 			player[p_num][1]--;
 		}
-		else player[p_num][1]++;
+		else {
+			player[p_num][2] = 1;
+			player[p_num][1]++;
+		}
 	}
 	// 이동한 자리에 해당 유저를 추가해놓기
 	int nx = player[p_num][0];
@@ -125,6 +139,13 @@ pair<int, int> fight(int fx, int fy) {
 
 // 진 사람의 움직임 로직
 void loserGo(int loserNum) {
+	// visiting에서 기존자리의 loserNum 삭제
+	int px = player[loserNum][0];
+	int py = player[loserNum][1];
+	// ** 벡터에서 특정 원소를 찾아 지우는 것을 공부해보자! ** //
+	int p_num_idx = find(visiting[px][py].begin(), visiting[px][py].end(), loserNum) - visiting[px][py].begin();
+	visiting[px][py].erase(visiting[px][py].begin() + p_num_idx);
+
 	while (true) {
 		int lx = player[loserNum][0];
 		int ly = player[loserNum][1];
@@ -223,6 +244,10 @@ void loserGo(int loserNum) {
 			}
 		}
 	}
+	// 이동한 자리에 해당 유저를 추가해놓기
+	int nx = player[loserNum][0];
+	int ny = player[loserNum][1];
+	visiting[nx][ny].push_back(loserNum);
 }
 
 void Simulate() {
