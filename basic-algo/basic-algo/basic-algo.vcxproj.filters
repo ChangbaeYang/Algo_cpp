@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\6_queue">
       <UniqueIdentifier>{d26b8a61-2ab5-4d5e-a274-a8557af3f3db}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\7_dequeue">
+      <UniqueIdentifier>{12bd8bdc-ed06-44af-946c-40444db1269c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -53,6 +56,15 @@
     </ClCompile>
     <ClCompile Include="..\..\..\새 폴더\Algo_cpp\basic-algo\basic-algo\1874_2.cpp">
       <Filter>소스 파일\5_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="dequeue_구현.cpp">
+      <Filter>소스 파일\7_dequeue</Filter>
+    </ClCompile>
+    <ClCompile Include="dequeue_stl.cpp">
+      <Filter>소스 파일\7_dequeue</Filter>
+    </ClCompile>
+    <ClCompile Include="10866.cpp">
+      <Filter>소스 파일\7_dequeue</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
