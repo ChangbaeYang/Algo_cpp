@@ -1,10 +1,13 @@
 #include<iostream>
 using namespace std;
 
-int a[26];
+int a[4];
 
 int main() {
-	int b[26];
-	cout << a[0] << "\n";
-	cout << b[0] << "\n";
+	int b[4];
+	for (int i = 0; i < 4; i++)
+		cout << a[i] << " ";
+	cout << "\n";
+	for (int i = 0; i < 4; i++)
+		cout << b[i] << " ";
 }

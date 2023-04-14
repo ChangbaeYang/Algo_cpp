@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\3_배열">
       <UniqueIdentifier>{9c79045d-5037-4b2a-b412-e4f93054f0e3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4_연결리스트">
+      <UniqueIdentifier>{593ebc8b-fe6f-45de-bae4-da223b9d0097}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -101,6 +104,18 @@
     </ClCompile>
     <ClCompile Include="practice_make100.cpp">
       <Filter>소스 파일\3_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="test_array.cpp">
+      <Filter>소스 파일\3_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="야매연결리스트.cpp">
+      <Filter>소스 파일\4_연결리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="list_stl.cpp">
+      <Filter>소스 파일\4_연결리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="1406.cpp">
+      <Filter>소스 파일\4_연결리스트</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
