@@ -22,6 +22,12 @@
     <Filter Include="소스 파일\7_dequeue">
       <UniqueIdentifier>{12bd8bdc-ed06-44af-946c-40444db1269c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\9_BFS">
+      <UniqueIdentifier>{5b7d5db8-5364-4108-8379-0defcf362d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3_배열">
+      <UniqueIdentifier>{9c79045d-5037-4b2a-b412-e4f93054f0e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -66,6 +72,36 @@
     <ClCompile Include="10866.cpp">
       <Filter>소스 파일\7_dequeue</Filter>
     </ClCompile>
+    <ClCompile Include="bfs.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="1926.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="2178.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="7576_시간초과.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="7576.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>소스 파일\3_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>소스 파일\3_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="10808.cpp">
+      <Filter>소스 파일\3_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="전역과지역의배열.cpp">
+      <Filter>소스 파일\3_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="practice_make100.cpp">
+      <Filter>소스 파일\3_배열</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
@@ -73,6 +109,9 @@
     </Text>
     <Text Include="output.txt">
       <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="array.txt">
+      <Filter>소스 파일\3_배열</Filter>
     </Text>
   </ItemGroup>
 </Project>
