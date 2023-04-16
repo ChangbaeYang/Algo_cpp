@@ -117,6 +117,21 @@
     <ClCompile Include="1406.cpp">
       <Filter>소스 파일\4_연결리스트</Filter>
     </ClCompile>
+    <ClCompile Include="1926_2.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="2178_2.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="7576_2.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="4179.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="1697.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
