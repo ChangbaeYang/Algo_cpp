@@ -138,6 +138,15 @@
     <ClCompile Include="2178_3.cpp">
       <Filter>소스 파일\9_BFS</Filter>
     </ClCompile>
+    <ClCompile Include="2178_stack.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="7576_3.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="4179_2.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
