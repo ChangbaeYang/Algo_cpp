@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\4_연결리스트">
       <UniqueIdentifier>{593ebc8b-fe6f-45de-bae4-da223b9d0097}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\B_재귀">
+      <UniqueIdentifier>{b1986ac0-c9f2-448f-a722-217feed4ef1c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -149,6 +152,18 @@
     </ClCompile>
     <ClCompile Include="1697_2.cpp">
       <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="4179_3.cpp">
+      <Filter>소스 파일\9_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="OneToNplus.cpp">
+      <Filter>소스 파일\B_재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="거듭제곱.cpp">
+      <Filter>소스 파일\B_재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="1629.cpp">
+      <Filter>소스 파일\B_재귀</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
