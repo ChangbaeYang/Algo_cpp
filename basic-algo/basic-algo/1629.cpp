@@ -1,19 +1,22 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 using ll = long long;
 
-ll a, b, c;
+ll a, b, m;	// a, b, m는 각각 21억씩
 int ret;
+vector<int> v;
 
-int func1(int a, int b, int c) {
-	ll val = 1;
-	while (b--) val = val * a % c;
-	return val;
+ll POW(int a, int b, int m) {
+	if (b == 1) return a % m;
+	ll val = POW(a, b / 2, m);
+	val = val * val % m;
+	if (b % 2 == 0) return val;
+	return val * a % m;
 }
 
 int main() {
-	cin >> a >> b >> c;
-	ret = func1(a, b, c);
-	cout << ret;
+	cin >> a >> b >> m;
+	cout << POW(a, b, m);
 	return 0;
 }

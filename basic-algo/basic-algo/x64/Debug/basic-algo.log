@@ -1,6 +1,2 @@
-﻿  1629.cpp
-C:\Users\besti\OneDrive\바탕 화면\Algo_cpp\basic-algo\basic-algo\1629.cpp(11,9): warning C4244: 'return': 'll'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\besti\OneDrive\바탕 화면\Algo_cpp\basic-algo\basic-algo\1629.cpp(16,20): warning C4244: '인수': 'll'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\besti\OneDrive\바탕 화면\Algo_cpp\basic-algo\basic-algo\1629.cpp(16,17): warning C4244: '인수': 'll'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\besti\OneDrive\바탕 화면\Algo_cpp\basic-algo\basic-algo\1629.cpp(16,14): warning C4244: '인수': 'll'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  basic-algo.vcxproj -> C:\Users\besti\OneDrive\바탕 화면\Algo_cpp\basic-algo\x64\Debug\basic-algo.exe
+﻿  4179_3.cpp
+  basic-algo.vcxproj -> C:\Users\SSAFY\Desktop\Algo_cpp\basic-algo\x64\Debug\basic-algo.exe
