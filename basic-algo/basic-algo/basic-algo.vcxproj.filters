@@ -156,13 +156,22 @@
     <ClCompile Include="4179_3.cpp">
       <Filter>소스 파일\9_BFS</Filter>
     </ClCompile>
-    <ClCompile Include="OneToNplus.cpp">
-      <Filter>소스 파일\B_재귀</Filter>
-    </ClCompile>
     <ClCompile Include="거듭제곱.cpp">
       <Filter>소스 파일\B_재귀</Filter>
     </ClCompile>
     <ClCompile Include="1629.cpp">
+      <Filter>소스 파일\B_재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_n부터1까지출력.cpp">
+      <Filter>소스 파일\B_재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_1부터n까지출력.cpp">
+      <Filter>소스 파일\B_재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_1부터n까지더하기.cpp">
+      <Filter>소스 파일\B_재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_피보나치.cpp">
       <Filter>소스 파일\B_재귀</Filter>
     </ClCompile>
   </ItemGroup>
